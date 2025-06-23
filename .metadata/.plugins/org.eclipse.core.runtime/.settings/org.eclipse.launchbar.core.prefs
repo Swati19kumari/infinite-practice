@@ -1,0 +1,10 @@
+LaunchTargetManager/configs/PronicNumber=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:PronicNumber,org.eclipse.launchbar.core.descriptorType.default\:EliminateDuplicates,org.eclipse.launchbar.core.descriptorType.default\:isOrdered,org.eclipse.launchbar.core.descriptorType.default\:DevisorDescending,org.eclipse.launchbar.core.descriptorType.default\:ReverseStringByWord,org.eclipse.launchbar.core.descriptorType.default\:isPalindrome,org.eclipse.launchbar.core.descriptorType.default\:CountPalindromeWord,org.eclipse.launchbar.core.descriptorType.default\:secondlg,org.eclipse.launchbar.core.descriptorType.default\:LeftRotateArrayByOne,org.eclipse.launchbar.core.descriptorType.default\:CallValueAndRef,org.eclipse.launchbar.core.descriptorType.default\:FilterName,org.eclipse.launchbar.core.descriptorType.default\:SuareNums,org.eclipse.launchbar.core.descriptorType.default\:FirstStringLength,org.eclipse.launchbar.core.descriptorType.default\:CountElements
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:CountPalindromeWord/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:CountPalindromeWord/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:PronicNumber/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:PronicNumber/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

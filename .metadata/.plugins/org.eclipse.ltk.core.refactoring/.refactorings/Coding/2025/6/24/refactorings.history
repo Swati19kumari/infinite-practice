@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.java.String.PalindromeString&apos; to &apos;ValidPalindromeString&apos;&#x0D;&#x0A;- Original project: &apos;Coding&apos;&#x0D;&#x0A;- Original element: &apos;com.java.String.PalindromeString&apos;&#x0D;&#x0A;- Renamed element: &apos;com.java.String.ValidPalindromeString&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PalindromeString&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.java.String{PalindromeString.java[PalindromeString" matchStrategy="1" name="ValidPalindromeString" qualified="false" references="true" similarDeclarations="false" stamp="1749625100733" textual="false" version="1.0"/>
+</session>

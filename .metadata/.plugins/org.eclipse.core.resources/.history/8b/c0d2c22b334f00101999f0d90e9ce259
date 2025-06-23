@@ -1,0 +1,19 @@
+package com.java.oops;
+
+public class CallValueAndRef {
+
+	
+	public static void changeValue(int x) {
+		x=50;
+		System.out.println("Inside method "+ x);
+	}
+	
+	
+	public static void main(String[] args) {
+		int num=10;
+		System.out.println("Before method call "+ num);;
+		changeValue(num);
+		System.out.println("After method call "+ num);
+	}
+	
+}

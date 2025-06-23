@@ -1,0 +1,36 @@
+package com.java.oops;
+
+import java.util.Arrays;
+
+public class CallValueAndRef {
+
+	
+	public static void changeValue(int x) {
+		x=50;
+		System.out.println("Inside method "+ x);
+	}
+	
+	//Call by reference (Array)
+	public static void modify(int[] arr) {
+		arr[0]=99;
+		System.out.println("Inside the method "+Arrays.toString(arr));
+	}
+	
+	public static void main(String[] args) {
+		
+		//in primitives no changes it is call by value
+		int num=10;
+		System.out.println("Before method call "+ num);;
+		changeValue(num);
+		System.out.println("After method call "+ num);
+		
+		//Call by reference by taking Object reference Arrays
+
+		int[] numbers= {1,2,3};
+		 System.out.println("before method call "+ Arrays.toString(numbers));
+		 modify(numbers);
+		 System.out.println("After method call " + Arrays.toString(numbers));
+		
+	}
+	
+}
