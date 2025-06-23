@@ -1,0 +1,338 @@
+2025-06-03 10:00:35,051 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2025-06-03 10:00:37,998 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2025-06-03 10:00:38,062 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) starting
+2025-06-03 10:00:38,063 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\wild\wildfly-9.0.2.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_151\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_151\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_151
+	java.io.tmpdir = C:\Users\swatiku\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Users/swatiku/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin/server;C:/Users/swatiku/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\swatiku\AppData\Local\Microsoft\WindowsApps;C:\Users\swatiku\AppData\Local\Programs\Git\cmd;C:\WINDOWS\System32;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_151-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\wild\wildfly-9.0.2.Final
+	jboss.host.name = ics-lt-ghw37v3
+	jboss.modules.dir = C:\wild\wildfly-9.0.2.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = ics-lt-ghw37v3
+	jboss.qualified.host.name = ics-lt-ghw37v3
+	jboss.server.base.dir = C:\wild\wildfly-9.0.2.Final\standalone
+	jboss.server.config.dir = C:\wild\wildfly-9.0.2.Final\standalone\configuration
+	jboss.server.data.dir = C:\wild\wildfly-9.0.2.Final\standalone\data
+	jboss.server.deploy.dir = C:\wild\wildfly-9.0.2.Final\standalone\data\content
+	jboss.server.log.dir = C:\wild\wildfly-9.0.2.Final\standalone\log
+	jboss.server.name = ics-lt-ghw37v3
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\wild\wildfly-9.0.2.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\wild\wildfly-9.0.2.Final\standalone\configuration\logging.properties
+	module.path = C:\wild\wildfly-9.0.2.Final\modules
+	org.jboss.boot.log.file = C:\wild\wildfly-9.0.2.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 9.x
+	stderr.encoding = UTF-8
+	stdout.encoding = UTF-8
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_151\lib\resources.jar;C:\Program Files\Java\jre1.8.0_151\lib\rt.jar;C:\Program Files\Java\jre1.8.0_151\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_151\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_151\lib\jce.jar;C:\Program Files\Java\jre1.8.0_151\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_151\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_151\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_151\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\wild\wildfly-9.0.2.Final\modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\wild\wildfly-9.0.2.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = US
+	user.dir = C:\wild\wildfly-9.0.2.Final\bin
+	user.home = C:\Users\swatiku
+	user.language = en
+	user.name = swatiku
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+2025-06-03 10:00:38,066 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly 9.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\wild\wildfly-9.0.2.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\wild\wildfly-9.0.2.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\wild\wildfly-9.0.2.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 
+2025-06-03 10:00:51,676 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 2) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2025-06-03 10:00:51,688 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 11) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2025-06-03 10:00:51,748 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found PayFlowClient.war in deployment directory. To trigger deployment create a file called PayFlowClient.war.dodeploy
+2025-06-03 10:00:51,749 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ExpensesProject.war in deployment directory. To trigger deployment create a file called ExpensesProject.war.dodeploy
+2025-06-03 10:00:51,775 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2025-06-03 10:00:51,798 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.3.1.Final
+2025-06-03 10:00:51,806 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.3.1.Final
+2025-06-03 10:00:51,881 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2025-06-03 10:00:51,884 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2025-06-03 10:00:51,888 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2025-06-03 10:00:51,901 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 24 core threads with 192 task threads based on your 12 available processors
+2025-06-03 10:00:51,917 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2025-06-03 10:00:51,922 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2025-06-03 10:00:51,934 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2025-06-03 10:00:51,941 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2025-06-03 10:00:51,967 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.5.Final)
+2025-06-03 10:00:52,019 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2025-06-03 10:00:52,020 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.2.9.Final starting
+2025-06-03 10:00:52,048 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2025-06-03 10:00:52,054 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2025-06-03 10:00:52,071 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2025-06-03 10:00:52,077 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2025-06-03 10:00:52,547 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.9.Final
+2025-06-03 10:00:52,564 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\wild\wildfly-9.0.2.Final/welcome-content
+2025-06-03 10:00:52,577 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2025-06-03 10:00:52,594 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2025-06-03 10:00:52,620 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-8) MSC000001: Failed to start service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:150)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.xnio.nio.NioXnioWorker.createTcpConnectionServer(NioXnioWorker.java:182)
+	at org.xnio.XnioWorker.createStreamConnectionServer(XnioWorker.java:243)
+	at org.wildfly.extension.undertow.HttpListenerService.startListening(HttpListenerService.java:115)
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:147)
+	... 5 more
+
+2025-06-03 10:00:52,670 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2025-06-03 10:00:53,151 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\wild\wildfly-9.0.2.Final\standalone\deployments
+2025-06-03 10:00:53,157 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "PayFlowClient.war" (runtime-name: "PayFlowClient.war")
+2025-06-03 10:00:53,157 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "ExpensesProject.war" (runtime-name: "ExpensesProject.war")
+2025-06-03 10:01:26,783 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0003: Could not index class module-info.class at /C:/wild/wildfly-9.0.2.Final/standalone/deployments/ExpensesProject.war/WEB-INF/lib/jackson-annotations-2.12.6.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 10
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665)
+	at org.jboss.jandex.Indexer.index(Indexer.java:699)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2025-06-03 10:01:26,798 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0003: Could not index class module-info.class at /C:/wild/wildfly-9.0.2.Final/standalone/deployments/ExpensesProject.war/WEB-INF/lib/jackson-core-2.12.6.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 34
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665)
+	at org.jboss.jandex.Indexer.index(Indexer.java:699)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2025-06-03 10:01:26,868 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0003: Could not index class module-info.class at /C:/wild/wildfly-9.0.2.Final/standalone/deployments/ExpensesProject.war/WEB-INF/lib/jackson-databind-2.12.6.1.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 66
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665)
+	at org.jboss.jandex.Indexer.index(Indexer.java:699)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2025-06-03 10:01:26,869 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0003: Could not index class module-info.class at /C:/wild/wildfly-9.0.2.Final/standalone/deployments/ExpensesProject.war/WEB-INF/lib/jakarta.annotation-api-3.0.0.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 17
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665)
+	at org.jboss.jandex.Indexer.index(Indexer.java:699)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2025-06-03 10:01:26,870 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0003: Could not index class module-info.class at /C:/wild/wildfly-9.0.2.Final/standalone/deployments/ExpensesProject.war/WEB-INF/lib/jakarta.inject-api-2.0.1.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 13
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665)
+	at org.jboss.jandex.Indexer.index(Indexer.java:699)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2025-06-03 10:01:26,871 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0003: Could not index class module-info.class at /C:/wild/wildfly-9.0.2.Final/standalone/deployments/ExpensesProject.war/WEB-INF/lib/jakarta.validation-api-3.1.0.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 35
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665)
+	at org.jboss.jandex.Indexer.index(Indexer.java:699)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2025-06-03 10:01:26,875 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0003: Could not index class module-info.class at /C:/wild/wildfly-9.0.2.Final/standalone/deployments/ExpensesProject.war/WEB-INF/lib/jakarta.ws.rs-api-4.0.0.jar: java.lang.IllegalStateException: Unknown tag! pos=5 poolCount = 34
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665)
+	at org.jboss.jandex.Indexer.index(Indexer.java:699)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2025-06-03 10:01:49,335 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0003: Could not index class module-info.class at /C:/wild/wildfly-9.0.2.Final/standalone/deployments/PayFlowClient.war/WEB-INF/lib/classmate-1.5.1.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 16
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665)
+	at org.jboss.jandex.Indexer.index(Indexer.java:699)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2025-06-03 10:01:49,545 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0003: Could not index class META-INF/versions/11/module-info.class at /C:/wild/wildfly-9.0.2.Final/standalone/deployments/PayFlowClient.war/WEB-INF/lib/jackson-module-jaxb-annotations-2.12.2.jar: java.lang.IllegalStateException: Unknown tag! pos=3 poolCount = 30
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665)
+	at org.jboss.jandex.Indexer.index(Indexer.java:699)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2025-06-03 10:01:49,551 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0003: Could not index class module-info.class at /C:/wild/wildfly-9.0.2.Final/standalone/deployments/PayFlowClient.war/WEB-INF/lib/jakarta.ws.rs-api-2.1.6.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 35
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665)
+	at org.jboss.jandex.Indexer.index(Indexer.java:699)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2025-06-03 10:01:49,558 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0003: Could not index class module-info.class at /C:/wild/wildfly-9.0.2.Final/standalone/deployments/PayFlowClient.war/WEB-INF/lib/jakarta.xml.bind-api-2.3.2.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 31
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:665)
+	at org.jboss.jandex.Indexer.index(Indexer.java:699)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2025-06-03 10:01:50,274 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "ExpensesProject.war")]) - failure description: {"WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => ["jboss.deployment.unit.\"ExpensesProject.war\".PARSE"],
+    "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+}}
+2025-06-03 10:01:50,275 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "PayFlowClient.war")]) - failure description: {"WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => ["jboss.deployment.unit.\"PayFlowClient.war\".PARSE"],
+    "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+}}
+2025-06-03 10:01:50,276 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "ejb3")]) - failure description: {"WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => [
+        "jboss.ejb.default-local-ejb-receiver-service",
+        "jboss.ejb3.ejbClientContext.default",
+        "jboss.ejb3.localEjbReceiver.value"
+    ],
+    "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+}}
+2025-06-03 10:01:50,277 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "ejb3"),
+    ("service" => "remote")
+]) - failure description: {"WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.ejb3.connector is missing [jboss.remoting.remotingConnectorInfoService.http-remoting-connector]"]}
+2025-06-03 10:01:50,278 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "webservices")]) - failure description: {"WFLYCTL0288: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => ["jboss.ws.config"],
+    "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+}}
+2025-06-03 10:01:50,280 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("http-listener" => "default")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.undertow.listener.default" => "org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+    Caused by: java.net.BindException: Address already in use: bind"}}
+2025-06-03 10:01:50,304 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "PayFlowClient.war" (runtime-name : "PayFlowClient.war")
+2025-06-03 10:01:50,304 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "ExpensesProject.war" (runtime-name : "ExpensesProject.war")
+2025-06-03 10:01:50,305 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.remoting.remotingConnectorInfoService.http-remoting-connector (missing) dependents: [service jboss.ejb3.connector] 
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+
+2025-06-03 10:01:50,377 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2025-06-03 10:01:50,377 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2025-06-03 10:01:50,377 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) started (with errors) in 75797ms - Started 198 of 385 services (8 services failed or missing dependencies, 210 services are lazy, passive or on-demand)
+2025-06-03 10:01:50,518 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ExpensesProject.war (runtime-name: ExpensesProject.war) in 116ms
+2025-06-03 10:01:50,535 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment PayFlowClient.war (runtime-name: PayFlowClient.war) in 135ms
+2025-06-03 10:01:50,590 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ExpensesProject.war" (runtime-name: "ExpensesProject.war")
+2025-06-03 10:01:50,590 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "PayFlowClient.war" (runtime-name: "PayFlowClient.war")
+2025-06-03 10:01:50,591 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+
+2025-06-03 10:01:55,336 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found PayFlowClient.war in deployment directory. To trigger deployment create a file called PayFlowClient.war.dodeploy
+2025-06-03 10:01:55,337 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ExpensesProject.war in deployment directory. To trigger deployment create a file called ExpensesProject.war.dodeploy
+2025-06-03 10:02:01,314 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0211: Suspending server
+2025-06-03 10:02:01,317 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2025-06-03 10:02:01,334 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-06-03 10:02:01,341 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2025-06-03 10:02:01,352 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 1.2.9.Final stopping
+2025-06-03 10:02:01,360 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-06-03 10:02:01,372 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 9.0.2.Final (WildFly Core 1.0.2.Final) stopped in 36ms
